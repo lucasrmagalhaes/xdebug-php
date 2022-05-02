@@ -154,3 +154,9 @@ Selecionar o arquivo; e<br>
 Update.
 
 ---
+
+**Em que as informações de profiling podem ser úteis?** <br>
+Ao analisar a performance do nosso sistema. <br>
+Com as informações de profiling, temos uma visão interessante sobre quanto tempo cada parte da nossa aplicação leva, podendo encontrar os maiores gargalos e decidir o que otimizar primeiro.
+
+---
