@@ -72,3 +72,9 @@ xdebug.scream = 1
 ```
 
 ---
+
+**Onde, por padrão, são definidas as configurações para o PHP?** <br>
+No arquivo ```php.ini``` <br>
+O caminho para este arquivo pode ser encontrado através do comando ```php -i```, ou através da função ```phpinfo()```. Neste arquivo, diversas configurações podem ser informadas para personalizar a execução do PHP e suas extensões.
+
+---
