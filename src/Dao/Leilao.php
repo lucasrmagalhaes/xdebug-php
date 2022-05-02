@@ -34,7 +34,7 @@ class Leilao
      */
     public function recuperarNaoFinalizados(): array
     {
-        return $this->recuperarLeiloesSeFinalizado(true);
+        return $this->recuperarLeiloesSeFinalizado(false);
     }
 
     /**
