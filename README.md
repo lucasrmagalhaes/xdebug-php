@@ -123,6 +123,7 @@ xdebug.collect_params
 
 ---
 
+*Globals*
 ```
 ini_set('xdebug.dump.GET', '*');
 
@@ -131,6 +132,8 @@ xdebug.show_local_vars = On
 ```
 
 ---
+
+[Profiling](https://xdebug.org/docs/profiler)
 
 ```
 xdebug.mode = profile
