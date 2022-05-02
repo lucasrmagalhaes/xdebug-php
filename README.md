@@ -38,3 +38,37 @@ A função não é alterada, já que a extensão (Xdebug) reescreve-a. <br>
 A função var_dump é redefinida pela extensão Xdebug. A "nova versão" traz mais informações do que a função original.
 
 ---
+
+*Exibir erros*
+```
+display_errors = On
+```
+
+*Forçar exibição dos erros*
+```
+xdebug.force_display_errors = 1
+```
+
+*Qual o nível de erro que o PHP deve exibir*
+```
+error_reporting = E_ALL
+```
+
+*Forçar exibição do nível de erros*
+```
+xdebug.force_error_reporting = E_ALL
+```
+
+*Parar/interromper a aplicação quando encontrar um erro*
+```
+xdebug.halt_level = E_NOTICE
+```
+
+```@``` na frente de uma função ou código não exibe erros ou warning, serve para mascarar um erro.
+
+*Com essa opção mesmo utilizando ```@``` o erro ou warning irá aparecer*
+```
+xdebug.scream = 1
+```
+
+---
