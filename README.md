@@ -102,3 +102,9 @@ xdebug.var_display_max_data = 5
 ```
 
 ---
+
+**Como a stack trace pode ser útil?** <br>
+Através da stack trace podemos reproduzir passo a passo o que aconteceu na aplicação. <br>
+Reproduzindo o passo a passo em nosso algoritmo, conseguimos ter uma noção melhor do que aconteceu na aplicação e assim encontrar com mais facilidade um possível erro ou comportamento inesperado.
+
+---
