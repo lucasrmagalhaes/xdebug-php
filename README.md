@@ -131,3 +131,12 @@ xdebug.show_local_vars = On
 ```
 
 ---
+
+```
+xdebug.mode = profile
+xdebug.output_dir = "C:\Users\Lucas\Desktop\xdebug-php\profiling\"
+```
+
+[webgrind](https://github.com/jokkedk/webgrind)
+
+---
