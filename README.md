@@ -169,3 +169,9 @@ vendor/bin/phpunit --testsuite=unit
 [Extensão PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
 
 ---
+
+**Qual a diferença entre os "botões" Step Into e Step Over?** <br>
+Step over ignora a implementação da função sendo chamada na linha atual. Step into navega na implementação da função chamada na linha atual. <br>
+Ao debuggar uma linha, se selecionamos o Step into, a depuração entrará na função (ou método) que está sendo chamada naquela linha. Já o Step over ignora este detalhe de implementação e parte para a próxima linha do arquivo atual.
+
+---
