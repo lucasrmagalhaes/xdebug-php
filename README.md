@@ -187,3 +187,14 @@ Quando queremos garantir que determinada alteração no código gera um resultad
 Se queremos garantir que um teste falha ao editar um valor, ou que a aplicação passa a funcionar com um valor de variável novo, esta funcionalidade pode ser muito útil para que não precisemos ficar alterando o código fonte a todo tempo.
 
 ---
+
+*Habilitado o Remote no servidor*
+```
+xdebug.remote_enable = 1
+```
+
+[xdebug Helper](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc)
+
+[Remote Debugging PHP in Visual Studio Code with XDebug](https://jonathansblog.co.uk/remote-debugging-php-in-visual-studio-code-with-xdebug)
+
+---
