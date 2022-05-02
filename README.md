@@ -181,3 +181,9 @@ Quando a linha for executada mais de uma vez, mas queremos parar em apenas deter
 Um loop é o melhor cenário para descrever a utilidade de um breakpoint condicional. Podemos fazer com que o breakpoint só seja "executado" em determinada iteração.
 
 ---
+
+**Em que momento pode ser útil utilizar a ferramenta Definir valor?** <br>
+Quando queremos garantir que determinada alteração no código gera um resultado. <br>
+Se queremos garantir que um teste falha ao editar um valor, ou que a aplicação passa a funcionar com um valor de variável novo, esta funcionalidade pode ser muito útil para que não precisemos ficar alterando o código fonte a todo tempo.
+
+---
