@@ -117,3 +117,8 @@ xdebug.collect_params = 2
 ```
 
 ---
+
+**Que configuração do Xdebug permite analisar os parâmetros na stack trace?** <br>
+xdebug.collect_params
+
+---
