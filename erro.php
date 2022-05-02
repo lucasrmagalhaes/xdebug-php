@@ -6,6 +6,8 @@ use Alura\Leilao\Model\Usuario;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
+ini_set('xdebug.dump.GET', '*');
+
 $leilao = new Leilao('Um objeto.');
 
 $umUsuario = new Usuario('Lucas');

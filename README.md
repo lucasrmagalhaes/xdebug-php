@@ -122,3 +122,12 @@ xdebug.collect_params = 2
 xdebug.collect_params
 
 ---
+
+```
+ini_set('xdebug.dump.GET', '*');
+
+xdebug.dump_globals = On
+xdebug.show_local_vars = On
+```
+
+---
