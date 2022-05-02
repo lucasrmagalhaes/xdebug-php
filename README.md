@@ -78,3 +78,27 @@ No arquivo ```php.ini``` <br>
 O caminho para este arquivo pode ser encontrado através do comando ```php -i```, ou através da função ```phpinfo()```. Neste arquivo, diversas configurações podem ser informadas para personalizar a execução do PHP e suas extensões.
 
 ---
+
+[xdebug/docs/display](https://xdebug.org/docs/develop#display)
+
+*var_dump em negrito e colorido*
+```
+xdebug.cli_color = 2
+```
+
+*Exibir menos propriedades, por exemplo dos filhos*
+```
+xdebug.var_display_max_children = 1
+```
+
+*Controlar a profundidade*
+```
+xdebug.var_display_max_depth = 1
+```
+
+*Limitando os caracteres da string*
+```
+xdebug.var_display_max_data = 5
+```
+
+---
