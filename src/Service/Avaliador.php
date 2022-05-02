@@ -56,6 +56,7 @@ class Avaliador
     private function avaliaTresMaioresLances(Leilao $leilao)
     {
         $lances = $leilao->getLances();
+        
         usort($lances, function (Lance $lance1, Lance $lance2) {
             return $lance2->getValor() - $lance1->getValor();
         });
