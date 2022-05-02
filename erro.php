@@ -6,7 +6,9 @@ use Alura\Leilao\Model\Usuario;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$leilao = new Leilao('Um objeto muito legal.');
-$leilao->finaliza();
+$leilao = new Leilao('Um objeto.');
 
-$leilao->recebeLance(new Lance(new Usuario('Lucas'), 1000));
+$umUsuario = new Usuario('Lucas');
+
+$leilao->recebeLance(new Lance($umUsuario, 1000));
+$leilao->recebeLance(new Lance($umUsuario, 1500));

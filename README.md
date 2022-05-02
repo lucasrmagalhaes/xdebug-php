@@ -108,3 +108,12 @@ Através da stack trace podemos reproduzir passo a passo o que aconteceu na apli
 Reproduzindo o passo a passo em nosso algoritmo, conseguimos ter uma noção melhor do que aconteceu na aplicação e assim encontrar com mais facilidade um possível erro ou comportamento inesperado.
 
 ---
+
+[xdebug/docs/stack_trace](https://xdebug.org/docs/develop#stack_trace)
+
+*Com a opção 3 mostra o valor na tela, 4 mostra variável e valor, recomendado a opção 2*
+```
+xdebug.collect_params = 2
+```
+
+---
