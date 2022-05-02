@@ -32,3 +32,9 @@ pecl install xdebug
 ```
 
 ---
+
+**Como é possível uma extensão do PHP alterar uma função já existente?** <br>
+A função não é alterada, já que a extensão (Xdebug) reescreve-a. <br>
+A função var_dump é redefinida pela extensão Xdebug. A "nova versão" traz mais informações do que a função original.
+
+---
