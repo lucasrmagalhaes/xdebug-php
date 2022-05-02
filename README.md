@@ -140,6 +140,17 @@ xdebug.mode = profile
 xdebug.output_dir = "C:\Users\Lucas\Desktop\xdebug-php\profiling\"
 ```
 
+---
+
 [webgrind](https://github.com/jokkedk/webgrind)
+
+Clonar o projeto; <br>
+Acessá-lo; <br>
+Rodar o comando:
+```
+composer serve
+```
+Selecionar o arquivo; e<br>
+Update.
 
 ---
