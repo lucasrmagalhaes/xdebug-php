@@ -16,7 +16,9 @@
 
         $leilao = new Alura\Leilao\Model\Leilao('Fiat 147 0Km');
 
-        var_dump('<pre>', $leilao);
+        // var_dump('<pre>', $leilao);
+
+        phpinfo();
 
         ?>
     </body>
