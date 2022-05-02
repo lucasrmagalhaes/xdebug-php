@@ -175,3 +175,9 @@ Step over ignora a implementação da função sendo chamada na linha atual. Ste
 Ao debuggar uma linha, se selecionamos o Step into, a depuração entrará na função (ou método) que está sendo chamada naquela linha. Já o Step over ignora este detalhe de implementação e parte para a próxima linha do arquivo atual.
 
 ---
+
+**Quando a definição de um breakpoint condicional pode ser interessante?** <br>
+Quando a linha for executada mais de uma vez, mas queremos parar em apenas determinados casos. Um loop, por exemplo. <br>
+Um loop é o melhor cenário para descrever a utilidade de um breakpoint condicional. Podemos fazer com que o breakpoint só seja "executado" em determinada iteração.
+
+---
