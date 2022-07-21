@@ -15,3 +15,8 @@ FROM php
 
 RUN pecl install xdebug && docker-php-ext-enable xdebug
 ```
+
+**Localizando o php.ini**
+```
+php --ini
+```
