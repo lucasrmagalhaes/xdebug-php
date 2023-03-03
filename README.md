@@ -3,7 +3,7 @@
 php -i
 ```
 
-[Xdebug Wizard](https://xdebug.org/wizard)
+[Installation Wizard](https://xdebug.org/wizard)
 
 **Renomear download para:** php_xdebug.dll <br />
 **Mover para:** C:/xampp/php/ext <br />
